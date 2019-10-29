@@ -2,7 +2,7 @@
 
 int main(int argc, char const *argv[])
 {
-    // Variables declaration
+    // Local variables declaration
     int n1, n2;
 
     // Input
