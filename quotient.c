@@ -6,8 +6,8 @@ int main(int argc, char const *argv[])
     int n1, n2;
 
     // Input
-    scanf("%d", &n1);
-    scanf("%d", &n2);
+    printf("Inserisci due numeri naturali in questa forma: n1/n2: ");
+    scanf("%d/%d", &n1, &n2);
 
     // Output
     printf("Consideriamo la divisione %d/%d:\n",
