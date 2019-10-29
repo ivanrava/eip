@@ -10,7 +10,7 @@ int main(int argc, char const *argv[])
     scanf("%d", &n2);
 
     // Output
-    printf("Consideriamo la divisione tra %d e %d:\n",
+    printf("Consideriamo la divisione %d/%d:\n",
         n1, n2);
     printf("\tQuoziente intero:\t %d\n",
         n1 / n2);
