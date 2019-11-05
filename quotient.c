@@ -10,13 +10,18 @@ int main(int argc, char const *argv[])
     scanf("%d/%d", &n1, &n2);
 
     // Output
-    printf("Consideriamo la divisione %d/%d:\n",
-        n1, n2);
-    printf("\tQuoziente intero:\t %d\n",
-        n1 / n2);
-    printf("\tResto:\t\t\t %d\n",
-        n1 % n2);
-    printf("\tQuoziente reale:\t %.7f\n",
-        (float)n1 / n2);
+    // Check for division by zero
+    if (n2 != 0) {
+        printf("Consideriamo la divisione %d/%d:\n",
+            n1, n2);
+        printf("\tQuoziente intero:\t %d\n",
+            n1 / n2);
+        printf("\tResto:\t\t\t %d\n",
+            n1 % n2);
+        printf("\tQuoziente reale:\t %.7f\n",
+            (float)n1 / n2);
+    }
+    else printf("Impossibile dividere per 0");
+    
     return 0;
 }
