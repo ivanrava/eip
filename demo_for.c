@@ -8,7 +8,7 @@ int main(void) {
         printf("Inserisci 2 numeri:\n");
         scanf("%d",&x);
         scanf("%d",&y);
-    } while (x < 0 || y < 0);
+    } while (x <= 0 || y <= 0);
     
     printf("Il quoziente intero di %d/%d: ",
         x, y);
