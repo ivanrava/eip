@@ -4,8 +4,8 @@
  * Returns 1 if prime number, 0 otherwise.
  */
 int prime(int n) {
-    for (int i = 2; i < n; i++) {
-        if (n % i == 0) {
+    for (int div = 2; div < n; div++) {
+        if (n % div == 0) {
             return 0;
         }
     }
