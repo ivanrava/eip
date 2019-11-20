@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 #define DIM 10
 
 int main(void) {
@@ -7,7 +8,7 @@ int main(void) {
     // Input
     scanf("%s", input);
     // Processing
-    for (int i = 0; i < DIM; i++) {
+    for (int i = 0; i < strlen(input); i++) {
         if (input[i] >= 65 && input[i] <= 90) {
             // UPPERCASE -> lowercase
             input[i] += 32;
