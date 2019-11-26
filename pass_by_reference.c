@@ -19,7 +19,7 @@ int main(void) {
     scanf("%d", &n);
     for (int i = 0; i < SIZE; i++) {
         int_div(&q, &r, v[i], n);
-        printf("\t%d\t%d\t%d\t%d\n", v[i], n, q, r);
+        printf("\t%d / %d =\t%2d with remainder %d\n", v[i], n, q, r);
     }    
     
     return 0;
