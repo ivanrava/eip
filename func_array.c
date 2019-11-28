@@ -4,16 +4,14 @@
 #define DIMC 12
 
 void sums(int v[], int n, int *pos_sum, int *neg_sum) {
-    int pos = 0, neg = 0;
+    *pos_sum = 0, *neg_sum = 0;
     for (int i = 0; i < n; i++) {
         if (v[i] < 0) {
-            neg += v[i];
+            *neg_sum += v[i];
         } else {
-            pos += v[i];
+            *pos_sum += v[i];
         }
     }
-    *pos_sum = pos;
-    *neg_sum = neg;
 }
 
 int main(void) {
