@@ -1,4 +1,4 @@
-# eip
+# Elements of Informatics and Programming - Exercises
 [![forthebadge](https://forthebadge.com/images/badges/made-with-c.svg)](https://forthebadge.com)
 
 EIP exercises (C programming) at UniBS (Information Engineering).
